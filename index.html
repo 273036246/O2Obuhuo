@@ -121,7 +121,7 @@ tbody tr:hover { background:#f8fafc; }
 <div class="title-card">
 <div>
 <h1>O2O连锁补货系统跟进看板</h1>
-<div class="period">最后更新：2026-11-02 10:53（刷新页面查看最新）</div>
+<div class="period">最后更新：2026-11-02 13:26（刷新页面查看最新）</div>
 </div>
 <div>
 <button class="tab-btn active" id="tabbtn-exec" onclick="switchTab('exec')">人员执行分析</button>
@@ -1498,7 +1498,7 @@ tbody tr:hover { background:#f8fafc; }
 <!-- §五 未启动人员名单 -->
 <div class="sec">
 <div class="sec-title">五、未启动人员名单</div>
-<div class="sec-desc">从未在任一周期（《各期人员执行及连锁拜访情况》"周启动名单"全期并集）产生启动记录、且未在《离职人员名单》中的在岗人员，共 14 人（已剔除离职：车顺达；已剔除往期曾启动但本期未填报 30 人）；按大区聚合、点击大区行展开该区未启动人员明细；"未启动人员占比"=本大区未启动人数÷本大区总人数×100%</div>
+<div class="sec-desc">从未在任一周期（《各期人员执行及连锁拜访情况》"周启动名单"全期并集）产生启动记录、且未在《离职人员名单》中的在岗人员，共 9 人（已剔除待补门店总数=0 的 5 人；已剔除离职：车顺达；已剔除往期曾启动但本期未填报 30 人）；按大区聚合、点击大区行展开该区未启动人员明细；"未启动人员占比"=本大区未启动人数÷本大区总人数×100%</div>
 <div class="filter-row">
 <input class="search" id="searchBox" placeholder="搜索大区、姓名或省份" oninput="filterNs()">
 </div>
@@ -1507,11 +1507,11 @@ tbody tr:hover { background:#f8fafc; }
 <tbody>
 <tr class="region-row" onclick="toggleRow('nsr0',this)">
 <td>中原区</td>
-<td class="num-r">5人</td>
+<td class="num-r">3人</td>
 <td class="num-r">25人</td>
-<td class="num-r"><span class="st st-v">20.0%</span></td>
+<td class="num-r"><span class="st st-v">12.0%</span></td>
 <td class="num-r">4,300</td></tr>
-<tr class="detail-row" id="nsr0" style="display:none"><td colspan="5"><div class="mini-title">中原区 · 5 位未启动人员明细（点击人员行待补门店总数展开各产品明细）</div><div class="tbl-scroll"><table><thead><tr><th>归属省份</th><th>人员姓名</th><th class="num-r">覆盖连锁数</th><th class="num-r">涉及产品数</th><th class="num-r">待补门店总数</th></tr></thead><tbody><tr style="background:#fff">
+<tr class="detail-row" id="nsr0" style="display:none"><td colspan="5"><div class="mini-title">中原区 · 3 位未启动人员明细（点击人员行待补门店总数展开各产品明细）</div><div class="tbl-scroll"><table><thead><tr><th>归属省份</th><th>人员姓名</th><th class="num-r">覆盖连锁数</th><th class="num-r">涉及产品数</th><th class="num-r">待补门店总数</th></tr></thead><tbody><tr style="background:#fff">
 <td>山西</td><td><b>张影7</b></td>
 <td class="num-r">1</td>
 <td class="num-r">6</td>
@@ -1526,17 +1526,7 @@ tbody tr:hover { background:#f8fafc; }
 <td class="num-r">1</td>
 <td class="num-r">4</td>
 <td class="num-r"><span class="link-num" onclick="toggleRow('nsd0-2-stores',this)">346 ▾</span></td></tr>
-<tr class="detail-row" id="nsd0-2-stores" style="display:none"><td colspan="5"><div class="mini-title">梁宽 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">148</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">167</td></tr><tr><td>利动60ml</td><td class="num-r">1</td><td class="num-r">3</td></tr><tr><td>仙达安60ml</td><td class="num-r">1</td><td class="num-r">28</td></tr></tbody></table></div></td></tr><tr style="background:#fff">
-<td>江苏</td><td><b>孔苗苗</b></td>
-<td class="num-r">1</td>
-<td class="num-r">2</td>
-<td class="num-r"><span class="link-num" onclick="toggleRow('nsd0-3-stores',this)">0 ▾</span></td></tr>
-<tr class="detail-row" id="nsd0-3-stores" style="display:none"><td colspan="5"><div class="mini-title">孔苗苗 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">0</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">0</td></tr></tbody></table></div></td></tr><tr style="background:#fff">
-<td>山西</td><td><b>葛少花</b></td>
-<td class="num-r">1</td>
-<td class="num-r">2</td>
-<td class="num-r"><span class="link-num" onclick="toggleRow('nsd0-4-stores',this)">0 ▾</span></td></tr>
-<tr class="detail-row" id="nsd0-4-stores" style="display:none"><td colspan="5"><div class="mini-title">葛少花 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">0</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">0</td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr class="region-row" onclick="toggleRow('nsr1',this)">
+<tr class="detail-row" id="nsd0-2-stores" style="display:none"><td colspan="5"><div class="mini-title">梁宽 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">148</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">167</td></tr><tr><td>利动60ml</td><td class="num-r">1</td><td class="num-r">3</td></tr><tr><td>仙达安60ml</td><td class="num-r">1</td><td class="num-r">28</td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr class="region-row" onclick="toggleRow('nsr1',this)">
 <td>华中区</td>
 <td class="num-r">3人</td>
 <td class="num-r">15人</td>
@@ -1558,54 +1548,39 @@ tbody tr:hover { background:#f8fafc; }
 <td class="num-r">5</td>
 <td class="num-r"><span class="link-num" onclick="toggleRow('nsd1-2-stores',this)">362 ▾</span></td></tr>
 <tr class="detail-row" id="nsd1-2-stores" style="display:none"><td colspan="5"><div class="mini-title">周莎 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">77</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">77</td></tr><tr><td>易坦静120ml</td><td class="num-r">1</td><td class="num-r">63</td></tr><tr><td>易坦静berry</td><td class="num-r">1</td><td class="num-r">69</td></tr><tr><td>利动60ml</td><td class="num-r">1</td><td class="num-r">76</td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr class="region-row" onclick="toggleRow('nsr2',this)">
-<td>东北区</td>
-<td class="num-r">3人</td>
-<td class="num-r">31人</td>
-<td class="num-r"><span class="st st-v">9.7%</span></td>
-<td class="num-r">22</td></tr>
-<tr class="detail-row" id="nsr2" style="display:none"><td colspan="5"><div class="mini-title">东北区 · 3 位未启动人员明细（点击人员行待补门店总数展开各产品明细）</div><div class="tbl-scroll"><table><thead><tr><th>归属省份</th><th>人员姓名</th><th class="num-r">覆盖连锁数</th><th class="num-r">涉及产品数</th><th class="num-r">待补门店总数</th></tr></thead><tbody><tr style="background:#fff">
-<td>辽宁</td><td><b>张岂铭</b></td>
-<td class="num-r">1</td>
-<td class="num-r">6</td>
-<td class="num-r"><span class="link-num" onclick="toggleRow('nsd2-0-stores',this)">22 ▾</span></td></tr>
-<tr class="detail-row" id="nsd2-0-stores" style="display:none"><td colspan="5"><div class="mini-title">张岂铭 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">8</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">8</td></tr><tr><td>易坦静120ml</td><td class="num-r">1</td><td class="num-r">1</td></tr><tr><td>易坦静berry</td><td class="num-r">1</td><td class="num-r">1</td></tr><tr><td>利动60ml</td><td class="num-r">1</td><td class="num-r">3</td></tr><tr><td>仙达安60ml</td><td class="num-r">1</td><td class="num-r">1</td></tr></tbody></table></div></td></tr><tr style="background:#fff">
-<td>内蒙</td><td><b>宋岩</b></td>
-<td class="num-r">1</td>
-<td class="num-r">2</td>
-<td class="num-r"><span class="link-num" onclick="toggleRow('nsd2-1-stores',this)">0 ▾</span></td></tr>
-<tr class="detail-row" id="nsd2-1-stores" style="display:none"><td colspan="5"><div class="mini-title">宋岩 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">0</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">0</td></tr></tbody></table></div></td></tr><tr style="background:#fff">
-<td>黑龙江</td><td><b>马国强</b></td>
-<td class="num-r">1</td>
-<td class="num-r">2</td>
-<td class="num-r"><span class="link-num" onclick="toggleRow('nsd2-2-stores',this)">0 ▾</span></td></tr>
-<tr class="detail-row" id="nsd2-2-stores" style="display:none"><td colspan="5"><div class="mini-title">马国强 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">0</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">0</td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr class="region-row" onclick="toggleRow('nsr3',this)">
-<td>华南区</td>
-<td class="num-r">2人</td>
-<td class="num-r">20人</td>
-<td class="num-r"><span class="st st-v">10.0%</span></td>
-<td class="num-r">66</td></tr>
-<tr class="detail-row" id="nsr3" style="display:none"><td colspan="5"><div class="mini-title">华南区 · 2 位未启动人员明细（点击人员行待补门店总数展开各产品明细）</div><div class="tbl-scroll"><table><thead><tr><th>归属省份</th><th>人员姓名</th><th class="num-r">覆盖连锁数</th><th class="num-r">涉及产品数</th><th class="num-r">待补门店总数</th></tr></thead><tbody><tr style="background:#fff">
-<td>海南</td><td><b>黄涛3</b></td>
-<td class="num-r">1</td>
-<td class="num-r">6</td>
-<td class="num-r"><span class="link-num" onclick="toggleRow('nsd3-0-stores',this)">66 ▾</span></td></tr>
-<tr class="detail-row" id="nsd3-0-stores" style="display:none"><td colspan="5"><div class="mini-title">黄涛3 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">10</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">10</td></tr><tr><td>易坦静120ml</td><td class="num-r">1</td><td class="num-r">14</td></tr><tr><td>易坦静berry</td><td class="num-r">1</td><td class="num-r">12</td></tr><tr><td>利动60ml</td><td class="num-r">1</td><td class="num-r">9</td></tr><tr><td>仙达安60ml</td><td class="num-r">1</td><td class="num-r">11</td></tr></tbody></table></div></td></tr><tr style="background:#fff">
-<td>广东</td><td><b>郑锦生</b></td>
-<td class="num-r">1</td>
-<td class="num-r">2</td>
-<td class="num-r"><span class="link-num" onclick="toggleRow('nsd3-1-stores',this)">0 ▾</span></td></tr>
-<tr class="detail-row" id="nsd3-1-stores" style="display:none"><td colspan="5"><div class="mini-title">郑锦生 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">0</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">0</td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr class="region-row" onclick="toggleRow('nsr4',this)">
 <td>西北区</td>
 <td class="num-r">1人</td>
 <td class="num-r">12人</td>
 <td class="num-r"><span class="st st-v">8.3%</span></td>
 <td class="num-r">1,085</td></tr>
-<tr class="detail-row" id="nsr4" style="display:none"><td colspan="5"><div class="mini-title">西北区 · 1 位未启动人员明细（点击人员行待补门店总数展开各产品明细）</div><div class="tbl-scroll"><table><thead><tr><th>归属省份</th><th>人员姓名</th><th class="num-r">覆盖连锁数</th><th class="num-r">涉及产品数</th><th class="num-r">待补门店总数</th></tr></thead><tbody><tr style="background:#fff">
+<tr class="detail-row" id="nsr2" style="display:none"><td colspan="5"><div class="mini-title">西北区 · 1 位未启动人员明细（点击人员行待补门店总数展开各产品明细）</div><div class="tbl-scroll"><table><thead><tr><th>归属省份</th><th>人员姓名</th><th class="num-r">覆盖连锁数</th><th class="num-r">涉及产品数</th><th class="num-r">待补门店总数</th></tr></thead><tbody><tr style="background:#fff">
 <td>陕西</td><td><b>马博</b></td>
 <td class="num-r">1</td>
 <td class="num-r">6</td>
-<td class="num-r"><span class="link-num" onclick="toggleRow('nsd4-0-stores',this)">1,085 ▾</span></td></tr>
-<tr class="detail-row" id="nsd4-0-stores" style="display:none"><td colspan="5"><div class="mini-title">马博 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">156</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">141</td></tr><tr><td>易坦静120ml</td><td class="num-r">1</td><td class="num-r">167</td></tr><tr><td>易坦静berry</td><td class="num-r">1</td><td class="num-r">375</td></tr><tr><td>利动60ml</td><td class="num-r">1</td><td class="num-r">193</td></tr><tr><td>仙达安60ml</td><td class="num-r">1</td><td class="num-r">53</td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr>
+<td class="num-r"><span class="link-num" onclick="toggleRow('nsd2-0-stores',this)">1,085 ▾</span></td></tr>
+<tr class="detail-row" id="nsd2-0-stores" style="display:none"><td colspan="5"><div class="mini-title">马博 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">156</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">141</td></tr><tr><td>易坦静120ml</td><td class="num-r">1</td><td class="num-r">167</td></tr><tr><td>易坦静berry</td><td class="num-r">1</td><td class="num-r">375</td></tr><tr><td>利动60ml</td><td class="num-r">1</td><td class="num-r">193</td></tr><tr><td>仙达安60ml</td><td class="num-r">1</td><td class="num-r">53</td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr class="region-row" onclick="toggleRow('nsr3',this)">
+<td>华南区</td>
+<td class="num-r">1人</td>
+<td class="num-r">20人</td>
+<td class="num-r"><span class="st st-v">5.0%</span></td>
+<td class="num-r">66</td></tr>
+<tr class="detail-row" id="nsr3" style="display:none"><td colspan="5"><div class="mini-title">华南区 · 1 位未启动人员明细（点击人员行待补门店总数展开各产品明细）</div><div class="tbl-scroll"><table><thead><tr><th>归属省份</th><th>人员姓名</th><th class="num-r">覆盖连锁数</th><th class="num-r">涉及产品数</th><th class="num-r">待补门店总数</th></tr></thead><tbody><tr style="background:#fff">
+<td>海南</td><td><b>黄涛3</b></td>
+<td class="num-r">1</td>
+<td class="num-r">6</td>
+<td class="num-r"><span class="link-num" onclick="toggleRow('nsd3-0-stores',this)">66 ▾</span></td></tr>
+<tr class="detail-row" id="nsd3-0-stores" style="display:none"><td colspan="5"><div class="mini-title">黄涛3 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">10</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">10</td></tr><tr><td>易坦静120ml</td><td class="num-r">1</td><td class="num-r">14</td></tr><tr><td>易坦静berry</td><td class="num-r">1</td><td class="num-r">12</td></tr><tr><td>利动60ml</td><td class="num-r">1</td><td class="num-r">9</td></tr><tr><td>仙达安60ml</td><td class="num-r">1</td><td class="num-r">11</td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr class="region-row" onclick="toggleRow('nsr4',this)">
+<td>东北区</td>
+<td class="num-r">1人</td>
+<td class="num-r">31人</td>
+<td class="num-r"><span class="st st-v">3.2%</span></td>
+<td class="num-r">22</td></tr>
+<tr class="detail-row" id="nsr4" style="display:none"><td colspan="5"><div class="mini-title">东北区 · 1 位未启动人员明细（点击人员行待补门店总数展开各产品明细）</div><div class="tbl-scroll"><table><thead><tr><th>归属省份</th><th>人员姓名</th><th class="num-r">覆盖连锁数</th><th class="num-r">涉及产品数</th><th class="num-r">待补门店总数</th></tr></thead><tbody><tr style="background:#fff">
+<td>辽宁</td><td><b>张岂铭</b></td>
+<td class="num-r">1</td>
+<td class="num-r">6</td>
+<td class="num-r"><span class="link-num" onclick="toggleRow('nsd4-0-stores',this)">22 ▾</span></td></tr>
+<tr class="detail-row" id="nsd4-0-stores" style="display:none"><td colspan="5"><div class="mini-title">张岂铭 · 各产品明细</div><div class="mini-tbl"><table><thead><tr><th>产品名称</th><th class="num-r">连锁数</th><th class="num-r">待补门店数</th></tr></thead><tbody><tr><td>妈咪爱10P</td><td class="num-r">1</td><td class="num-r">8</td></tr><tr><td>妈咪爱30P</td><td class="num-r">1</td><td class="num-r">8</td></tr><tr><td>易坦静120ml</td><td class="num-r">1</td><td class="num-r">1</td></tr><tr><td>易坦静berry</td><td class="num-r">1</td><td class="num-r">1</td></tr><tr><td>利动60ml</td><td class="num-r">1</td><td class="num-r">3</td></tr><tr><td>仙达安60ml</td><td class="num-r">1</td><td class="num-r">1</td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr>
 </tbody></table></div>
 </div>
 
