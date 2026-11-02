@@ -121,7 +121,7 @@ tbody tr:hover { background:#f8fafc; }
 <div class="title-card">
 <div>
 <h1>O2O连锁补货系统跟进看板</h1>
-<div class="period">最后更新：2026-11-02 09:26（刷新页面查看最新）</div>
+<div class="period">最后更新：2026-11-02 10:53（刷新页面查看最新）</div>
 </div>
 <div>
 <button class="tab-btn active" id="tabbtn-exec" onclick="switchTab('exec')">人员执行分析</button>
@@ -1786,7 +1786,7 @@ msfxChart.setOption({
   yAxis: {type:'value', name:'补货门店数'},
   series: [{name:'码上放心-门店补货数量', type:'bar', data: msfxSorted.map(x=>x.qty),
     itemStyle:{color:'#6366f1'}, barWidth:'50%',
-    label:{show:true, position:'top', formatter:'{c}'}}]
+    label:{show:true, position:'top', formatter: p => p.value.toLocaleString('en-US')}}]
 });
 window.addEventListener('resize', () => { c1.resize(); c3.resize(); msfxChart.resize(); });
 </script>
